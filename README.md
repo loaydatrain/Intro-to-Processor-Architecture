@@ -1,7 +1,5 @@
 # 2 Stage pipelined MIPS32 Processor
 
-## Loay Rashid
-
 Implementation of a 2 stage MIPS processor, with different modules for fetch, ALU, decode, execute units. The
 processor must be able to execute a given set of MIPS32 instructions.
 
