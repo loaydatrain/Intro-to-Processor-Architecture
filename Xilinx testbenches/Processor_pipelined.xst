@@ -1,0 +1,5 @@
+set -tmpdir "/home/loay/Desktop/finalproc/xst/projnav.tmp"
+set -xsthdpdir "/home/loay/Desktop/finalproc/xst"
+elaborate
+-ifn Processor_pipelined.prj
+-ifmt mixed

@@ -1,0 +1,23 @@
+Running: /opt/Xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/loay/Desktop/finalproc/testbench_isim_beh.exe -prj /home/loay/Desktop/finalproc/testbench_beh.prj work.testbench work.glbl 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/loay/Desktop/finalproc/finalproc.v" into library work
+Analyzing Verilog file "/home/loay/Desktop/finalproc/testbench.v" into library work
+Analyzing Verilog file "/opt/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95216 KB
+Fuse CPU Usage: 980 ms
+Compiling module Control_Unit
+Compiling module ALU
+Compiling module Processor_pipelined
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 5 Verilog Units
+Built simulation executable /home/loay/Desktop/finalproc/testbench_isim_beh.exe
+Fuse Memory Usage: 655772 KB
+Fuse CPU Usage: 1010 ms
+GCC CPU Usage: 940 ms
